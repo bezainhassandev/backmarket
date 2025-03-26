@@ -5,7 +5,7 @@ const CardSection = () => {
     return (
         <div className='py-16 bg-gray-100'>
             <div className='max-w-[1440px] mx-auto '>
-                <h2 className='text-[1.4rem] leading-[2rem] tracking-[0] font-bold'>
+                <h2 className='text-[1.4rem] leading-[2rem] tracking-[0] font-semibold'>
                     You may also like
                 </h2>
                 <div className="p-4">

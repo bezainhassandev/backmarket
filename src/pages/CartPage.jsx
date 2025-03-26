@@ -3,6 +3,7 @@ import Carousel from "@/components/Carousel";
 import ColorSelector from "@/components/ColorSelector";
 import ConditionSelector from "@/components/ConditionSelector";
 import StorageSelector from "@/components/PriceSelector";
+import Reviews from "@/components/Reviews";
 import { Heart } from "lucide-react";
 
 export default function CartPage() {
@@ -113,6 +114,7 @@ export default function CartPage() {
                 </div >
             </div >
             <CardSection />
+            <Reviews />
         </div>
     )
 }
